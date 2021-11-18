@@ -25,14 +25,15 @@ TEST_CASE("sumwhile")
 
 TEST_CASE("sumn")
 {
-    REQUIRE(sumn(1)==1);
-    REQUIRE(sumn(3)==9);
-    REQUIRE(sumn(33)==1089);
+    REQUIRE(sumn(1)==1); // sum(1) must be 1
+    REQUIRE(sumn(3)==9); //sum(3) = 1+3+5 = 9
+    REQUIRE(sumn(33)==1089); //sum(33) = 1+3+5+...+65 = 1089
 }
 
 TEST_CASE("fib")
 {
-    REQUIRE(fib()==1);
+   // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
+    REQUIRE(1==0);
 }
 
 
