@@ -25,7 +25,7 @@ TEST_CASE("sumn") {
     REQUIRE(sumn(33) == 1089); // sum(33) = 1+3+5+...+65 = 1089
 }
 
-TEST_CASE("fib") {
+TEST_CASE("fibtail") {
     // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
     REQUIRE(1 == 2);
 }
