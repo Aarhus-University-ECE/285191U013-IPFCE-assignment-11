@@ -16,10 +16,11 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-# add_library(linked_list STATIC linked_list.c)
-# add_library(btree STATIC btree.c)
+add_library(fib STATIC fib.c)
+add_library(sum STATIC sum.c)
+add_library(sumn STATIC sumn.c)
 
-set(libs linked_list btree)
+set(libs fib sum sumn)
 
 # Force compiler to output in color when you use ninja as generator
 # https://stackoverflow.com/questions/73349743/ninja-build-system-gcc-clang-doesnt-output-diagnostic-colors
